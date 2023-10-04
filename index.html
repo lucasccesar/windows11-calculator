@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css">
+        <title>Windows 11 Calculator</title>
+    </head>
+    <body>
+        <div id="calculadora">
+            <div id="cima">
+                <p class="invisivel">a</p>
+                <div id="telinha">
+                    <p id="operacoes" class="invisivel">0</p>
+                    <p id="resultado">0</p>
+                </div>
+            </div>
+            <div id="botoes">
+                <div id="botoes1" class="wrap">
+                    <button id="limpar">C</button>
+                    <button id="porcentagem">%</button>
+                    <button id="divisao">/</button>
+                    <button id="multiplicacao">*</button>
+                    <button id="sete">7</button>
+                    <button id="oito">8</button>
+                    <button id="nove">9</button>
+                    <button id="menos">-</button>
+                    <button id="quatro">4</button>
+                    <button id="cinco">5</button>
+                    <button id="seis">6</button>
+                    <button id="mais">+</button>
+                </div>
+                <div id="botoes2">
+                    <div id="botoes3">
+                        <div id="botoes4">
+                            <button id="um">1</button>
+                            <button id="dois">2</button>
+                            <button id="tres">3</button>
+                        </div>
+                        <div id="botoes5">
+                            <div id="divZero">
+                                <button id="zero">0</button>
+                            </div>
+                            <div id="divVirgula">
+                                <button id="virgula">,</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="divIgual">
+                        <button id="igual">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
